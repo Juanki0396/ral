@@ -4,6 +4,7 @@
 #include "Math/Vector3D.h"
 #include "ROOT/RVec.hxx"
 #include "edm4hep/ReconstructedParticleData.h"
+#include "ral/Templates.h"
 
 /**
  * Main namespace of the library
@@ -14,6 +15,8 @@ namespace k4::ral {
  * Englobe analyzers that acts on the ReconstructedParticle class
  */
 namespace ReconstructedParticle {
+
+Templates::getter<int, edm4hep::ReconstructedParticleData> get_dfsaf;
 
 /**
  * Get PDG member from ReconstructedParticles

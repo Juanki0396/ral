@@ -8,6 +8,10 @@ namespace k4::ral {
 
 namespace ReconstructedParticle {
 
+Templates::getter<int, edm4hep::ReconstructedParticleData> get_dfsaf(
+    [](edm4hep::ReconstructedParticleData data){return data.PDG;}
+);
+
 ROOT::VecOps::RVec<int>
 get_PDG(ROOT::VecOps::RVec<edm4hep::ReconstructedParticleData> particles) {
   ROOT::VecOps::RVec<int> result;
