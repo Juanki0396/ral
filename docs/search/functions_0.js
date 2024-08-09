@@ -9,5 +9,6 @@ var searchData=
   ['get_5fmomentum_6',['get_momentum',['../namespacek4_1_1ral_1_1ReconstructedParticle.html#a1890f7ec86017b9e0a35ceabb5609a1c',1,'k4::ral::ReconstructedParticle']]],
   ['get_5fpdg_7',['get_PDG',['../namespacek4_1_1ral_1_1ParticleID.html#afa04332136834231ec266cf256f04c70',1,'k4::ral::ParticleID::get_PDG()'],['../namespacek4_1_1ral_1_1ReconstructedParticle.html#a3a3c0cbf80f11df3ff092673ddaafb1a',1,'k4::ral::ReconstructedParticle::get_PDG(ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)']]],
   ['get_5freferencepoint_8',['get_referencePoint',['../namespacek4_1_1ral_1_1ReconstructedParticle.html#acc55bf5d888e7ad7f957a2a7c018902f',1,'k4::ral::ReconstructedParticle']]],
-  ['get_5ftype_9',['get_type',['../namespacek4_1_1ral_1_1ParticleID.html#a7e9b4cf06ba211f8111b7c34a639b59b',1,'k4::ral::ParticleID']]]
+  ['get_5ftype_9',['get_type',['../namespacek4_1_1ral_1_1ParticleID.html#a7e9b4cf06ba211f8111b7c34a639b59b',1,'k4::ral::ParticleID']]],
+  ['getter_10',['getter',['../structk4_1_1ral_1_1Templates_1_1getter.html#a5e1a4358f0bfe0e11d8b0456763e377b',1,'k4::ral::Templates::getter::getter()'],['../structk4_1_1ral_1_1Templates_1_1getter.html#a055a4f3d6ad3f2ee34d16278d470aaf1',1,'k4::ral::Templates::getter::getter(std::function&lt; T(E)&gt; function)']]]
 ];
