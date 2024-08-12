@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.11.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ral: include/ral/Templates.h File Reference</title>
+<title>ral: include/ral/LogicalOperators.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -96,31 +96,26 @@ $(function(){ initResizable(false); });
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
-  <div class="headertitle"><div class="title">Templates.h File Reference</div></div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">LogicalOperators.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;functional&gt;</code><br />
-<code>#include &quot;ROOT/RVec.hxx&quot;</code><br />
+<div class="textblock"><code>#include &quot;ROOT/RVec.hxx&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for Templates.h:</div>
+Include dependency graph for LogicalOperators.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="Templates_8h__incl.png" border="0" usemap="#ainclude_2ral_2Templates_8h" alt=""/></div>
+<div class="center"><img src="LogicalOperators_8h__incl.png" border="0" usemap="#ainclude_2ral_2LogicalOperators_8h" alt=""/></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="Templates_8h__dep__incl.png" border="0" usemap="#ainclude_2ral_2Templates_8hdep" alt=""/></div>
+<div class="center"><img src="LogicalOperators_8h__dep__incl.png" border="0" usemap="#ainclude_2ral_2LogicalOperators_8hdep" alt=""/></div>
 </div>
 </div>
-<p><a href="Templates_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="LogicalOperators_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structk4_1_1ral_1_1Templates_1_1getter.html">k4::ral::Templates::getter&lt; T, E &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacek4.html">k4</a></td></tr>
@@ -128,8 +123,33 @@ Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacek4_1_1ral.html">k4::ral</a></td></tr>
 <tr class="memdesc:namespacek4_1_1ral"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main namespace of the library. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacek4_1_1ral_1_1Templates.html">k4::ral::Templates</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html">k4::ral::LogicalOperators</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a2b0439fe6dd51aea6c48003928a4f260" id="r_a2b0439fe6dd51aea6c48003928a4f260"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">k4::ral::LogicalOperators::ComparisonOperator</a> { <br />
+&#160;&#160;<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260a1798e8c3621ca53d9e3a80d257306000">k4::ral::LogicalOperators::LESS</a>
+, <a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260aa73f7ffb435a7a054bbe725ac449b1e4">k4::ral::LogicalOperators::LESSEQ</a>
+, <a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260a2dcbad7477fd40561e8b8198f173bd47">k4::ral::LogicalOperators::EQ</a>
+, <a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260a1f782aca52a95a68f6b0e21211c84607">k4::ral::LogicalOperators::GREATEREQ</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260ae7e72355289e404b762d4cf88824d23b">k4::ral::LogicalOperators::GREATER</a>
+<br />
+ }</td></tr>
+<tr class="separator:a2b0439fe6dd51aea6c48003928a4f260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6d307e2cf0e17b865e10899e555a7001" id="r_a6d307e2cf0e17b865e10899e555a7001"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6d307e2cf0e17b865e10899e555a7001"><td class="memTemplItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a6d307e2cf0e17b865e10899e555a7001">k4::ral::LogicalOperators::filter</a> (ROOT::VecOps::RVec&lt; bool &gt; mask, ROOT::VecOps::RVec&lt; T &gt; collection)</td></tr>
+<tr class="separator:a6d307e2cf0e17b865e10899e555a7001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e0f43ea1a0f8777bd694364ee463b6b" id="r_a4e0f43ea1a0f8777bd694364ee463b6b"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a4e0f43ea1a0f8777bd694364ee463b6b">k4::ral::LogicalOperators::operator&amp;&amp;</a> (const ROOT::VecOps::RVec&lt; bool &gt; &amp;vec1, const ROOT::VecOps::RVec&lt; bool &gt; &amp;vec2)</td></tr>
+<tr class="separator:a4e0f43ea1a0f8777bd694364ee463b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b57fe1480502e016a3384f4b21a546" id="r_a07b57fe1480502e016a3384f4b21a546"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a07b57fe1480502e016a3384f4b21a546">k4::ral::LogicalOperators::operator||</a> (const ROOT::VecOps::RVec&lt; bool &gt; &amp;vec1, const ROOT::VecOps::RVec&lt; bool &gt; &amp;vec2)</td></tr>
+<tr class="separator:a07b57fe1480502e016a3384f4b21a546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31ac13fe7b40a56b602aef6268a44107" id="r_a31ac13fe7b40a56b602aef6268a44107"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a31ac13fe7b40a56b602aef6268a44107">k4::ral::LogicalOperators::operator!</a> (const ROOT::VecOps::RVec&lt; bool &gt; &amp;vec1)</td></tr>
+<tr class="separator:a31ac13fe7b40a56b602aef6268a44107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

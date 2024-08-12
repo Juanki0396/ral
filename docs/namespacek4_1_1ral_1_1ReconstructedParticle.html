@@ -97,8 +97,7 @@ $(function(){ initResizable(false); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">k4::ral::ReconstructedParticle Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -146,11 +145,8 @@ Functions</h2></td></tr>
 <tr class="memitem:af0600e76b43b08f059a9de00b57b471c" id="r_af0600e76b43b08f059a9de00b57b471c"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0600e76b43b08f059a9de00b57b471c">get_goodnessOfPID</a> (ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
 <tr class="memdesc:af0600e76b43b08f059a9de00b57b471c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get goodnessOfPID member from ReconstructedParticles.  <br /></td></tr>
 <tr class="separator:af0600e76b43b08f059a9de00b57b471c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a6a84fb7b348308ce04872b0ef5e3db6f" id="r_a6a84fb7b348308ce04872b0ef5e3db6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structk4_1_1ral_1_1Templates_1_1getter.html">Templates::getter</a>&lt; int, edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a84fb7b348308ce04872b0ef5e3db6f">get_dfsaf</a> ([](edm4hep::ReconstructedParticleData data){return data.PDG;})</td></tr>
-<tr class="separator:a6a84fb7b348308ce04872b0ef5e3db6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f18faee51c506827a983d4b3a1deb08" id="r_a2f18faee51c506827a983d4b3a1deb08"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f18faee51c506827a983d4b3a1deb08">mask_e</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float energy, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="separator:a2f18faee51c506827a983d4b3a1deb08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Englobe analyzers that acts on the <a class="el" href="namespacek4_1_1ral_1_1ReconstructedParticle.html" title="Englobe analyzers that acts on the ReconstructedParticle class.">ReconstructedParticle</a> class. </p>
@@ -337,18 +333,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a6a84fb7b348308ce04872b0ef5e3db6f" name="a6a84fb7b348308ce04872b0ef5e3db6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a84fb7b348308ce04872b0ef5e3db6f">&#9670;&#160;</a></span>get_dfsaf</h2>
+<a id="a2f18faee51c506827a983d4b3a1deb08" name="a2f18faee51c506827a983d4b3a1deb08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f18faee51c506827a983d4b3a1deb08">&#9670;&#160;</a></span>mask_e()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structk4_1_1ral_1_1Templates_1_1getter.html">Templates::getter</a>&lt; int, edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::get_dfsaf </td>
+          <td class="memname">ROOT::VecOps::RVec&lt; bool &gt; k4::ral::ReconstructedParticle::mask_e </td>
           <td>(</td>
-          <td class="paramtype">[] (edm4hep::ReconstructedParticleData data){return data.PDG;}</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>energy</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
