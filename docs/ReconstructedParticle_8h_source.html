@@ -102,9 +102,9 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define RECONSTRUCTEDPARTICLE_ANALYZERS_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;Math/Vector3D.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="LogicalOperators_8h.html">ral/LogicalOperators.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;ROOT/RVec.hxx&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;edm4hep/ReconstructedParticleData.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;ROOT/RVec.hxx&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;edm4hep/ReconstructedParticleData.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="LogicalOperators_8h.html">ral/LogicalOperators.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacek4_1_1ral.html">k4::ral</a> {</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
@@ -201,16 +201,14 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>};</div>
 </div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>ROOT::VecOps::RVec&lt;bool&gt; </div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    <a class="code hl_function" href="namespacek4_1_1ral_1_1ReconstructedParticle.html#a2f18faee51c506827a983d4b3a1deb08">mask_e</a>(</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    <a class="code hl_enumeration" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op,</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    <span class="keywordtype">float</span> energy,</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    ROOT::VecOps::RVec&lt;edm4hep::ReconstructedParticleData&gt; particles);</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>} <span class="comment">// namespace ReconstructedParticle</span></div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>} <span class="comment">// namespace k4::ral</span></div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>ROOT::VecOps::RVec&lt;bool&gt;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span><a class="code hl_function" href="namespacek4_1_1ral_1_1ReconstructedParticle.html#a2f18faee51c506827a983d4b3a1deb08">mask_e</a>(<a class="code hl_enumeration" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, <span class="keywordtype">float</span> energy,</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>       ROOT::VecOps::RVec&lt;edm4hep::ReconstructedParticleData&gt; particles);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>} <span class="comment">// namespace ReconstructedParticle</span></div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>} <span class="comment">// namespace k4::ral</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aLogicalOperators_8h_html"><div class="ttname"><a href="LogicalOperators_8h.html">LogicalOperators.h</a></div></div>
 <div class="ttc" id="anamespacek4_1_1ral_1_1LogicalOperators_html_a2b0439fe6dd51aea6c48003928a4f260"><div class="ttname"><a href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">k4::ral::LogicalOperators::ComparisonOperator</a></div><div class="ttdeci">ComparisonOperator</div><div class="ttdef"><b>Definition</b> LogicalOperators.h:10</div></div>
 <div class="ttc" id="anamespacek4_1_1ral_1_1ReconstructedParticle_html_a021576c6354f06e13b7d88a2367466a7"><div class="ttname"><a href="namespacek4_1_1ral_1_1ReconstructedParticle.html#a021576c6354f06e13b7d88a2367466a7">k4::ral::ReconstructedParticle::get_energy</a></div><div class="ttdeci">ROOT::VecOps::RVec&lt; float &gt; get_energy(ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</div><div class="ttdoc">Get energy member from ReconstructedParticles.</div><div class="ttdef"><b>Definition</b> ReconstructedParticle.cc:24</div></div>
