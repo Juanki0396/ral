@@ -221,6 +221,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aed70b548026a1d33f1b1deceb26fdb8a" id="r_aed70b548026a1d33f1b1deceb26fdb8a"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed70b548026a1d33f1b1deceb26fdb8a">mask_theta</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
 <tr class="memdesc:aed70b548026a1d33f1b1deceb26fdb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a boolean mask based on the polar angle for later filtering.  <br /></td></tr>
 <tr class="separator:aed70b548026a1d33f1b1deceb26fdb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d2144c9a7926290aff85ffb9b23492" id="r_a77d2144c9a7926290aff85ffb9b23492"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77d2144c9a7926290aff85ffb9b23492">mask_phi</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a77d2144c9a7926290aff85ffb9b23492"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a boolean mask based on the azimutal angle for later filtering.  <br /></td></tr>
+<tr class="separator:a77d2144c9a7926290aff85ffb9b23492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e91d1d5132dbe7c7973adcd86a3054c" id="r_a6e91d1d5132dbe7c7973adcd86a3054c"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e91d1d5132dbe7c7973adcd86a3054c">mask_r</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
 <tr class="memdesc:a6e91d1d5132dbe7c7973adcd86a3054c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a boolean mask based on the distance to origin for later filtering.  <br /></td></tr>
 <tr class="separator:a6e91d1d5132dbe7c7973adcd86a3054c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,9 +242,72 @@ Functions</h2></td></tr>
 <tr class="memitem:ad00acf95304439f002769d41ea519796" id="r_ad00acf95304439f002769d41ea519796"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad00acf95304439f002769d41ea519796">mask_q</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
 <tr class="memdesc:ad00acf95304439f002769d41ea519796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a boolean mask based on the charge for later filtering.  <br /></td></tr>
 <tr class="separator:ad00acf95304439f002769d41ea519796"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77d2144c9a7926290aff85ffb9b23492" id="r_a77d2144c9a7926290aff85ffb9b23492"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77d2144c9a7926290aff85ffb9b23492">mask_phi</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
-<tr class="memdesc:a77d2144c9a7926290aff85ffb9b23492"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a boolean mask based on the azimutal angle for later filtering.  <br /></td></tr>
-<tr class="separator:a77d2144c9a7926290aff85ffb9b23492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa46a12622d4cf1d54c80cd704ff86a" id="r_a6aa46a12622d4cf1d54c80cd704ff86a"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aa46a12622d4cf1d54c80cd704ff86a">mask_absq</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a6aa46a12622d4cf1d54c80cd704ff86a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a boolean mask based on the absolute charge for later filtering.  <br /></td></tr>
+<tr class="separator:a6aa46a12622d4cf1d54c80cd704ff86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda38fdbd0c5a38e356f3de0b46cf84a" id="r_acda38fdbd0c5a38e356f3de0b46cf84a"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acda38fdbd0c5a38e356f3de0b46cf84a">mask_pdg</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, int value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:acda38fdbd0c5a38e356f3de0b46cf84a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a boolean mask based on the PDG for later filtering.  <br /></td></tr>
+<tr class="separator:acda38fdbd0c5a38e356f3de0b46cf84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e3a5e3ae5f3faa99bce01f84eeb99fb" id="r_a4e3a5e3ae5f3faa99bce01f84eeb99fb"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e3a5e3ae5f3faa99bce01f84eeb99fb">mask_abspdg</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, int value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a4e3a5e3ae5f3faa99bce01f84eeb99fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a boolean mask based on the absolute pdg for later filtering.  <br /></td></tr>
+<tr class="separator:a4e3a5e3ae5f3faa99bce01f84eeb99fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a20c3bdacb90105a1545286c40ee5af" id="r_a0a20c3bdacb90105a1545286c40ee5af"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a20c3bdacb90105a1545286c40ee5af">sel_e</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a0a20c3bdacb90105a1545286c40ee5af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the energy.  <br /></td></tr>
+<tr class="separator:a0a20c3bdacb90105a1545286c40ee5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19cbdb760a9d18ce3d6343ff4733f12f" id="r_a19cbdb760a9d18ce3d6343ff4733f12f"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19cbdb760a9d18ce3d6343ff4733f12f">sel_pmod</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a19cbdb760a9d18ce3d6343ff4733f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the 3D momentum modulus.  <br /></td></tr>
+<tr class="separator:a19cbdb760a9d18ce3d6343ff4733f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027e1e004c63efd98f96abffd09fe40f" id="r_a027e1e004c63efd98f96abffd09fe40f"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a027e1e004c63efd98f96abffd09fe40f">sel_pt</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a027e1e004c63efd98f96abffd09fe40f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the transverse momentum modulus.  <br /></td></tr>
+<tr class="separator:a027e1e004c63efd98f96abffd09fe40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe813eefb25a9f2fd1b6b4bc5e5f10c4" id="r_afe813eefb25a9f2fd1b6b4bc5e5f10c4"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe813eefb25a9f2fd1b6b4bc5e5f10c4">sel_px</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:afe813eefb25a9f2fd1b6b4bc5e5f10c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the x momentum.  <br /></td></tr>
+<tr class="separator:afe813eefb25a9f2fd1b6b4bc5e5f10c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172d8b0f3cd9b70e843128c802918ef8" id="r_a172d8b0f3cd9b70e843128c802918ef8"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a172d8b0f3cd9b70e843128c802918ef8">sel_py</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a172d8b0f3cd9b70e843128c802918ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the y momentum.  <br /></td></tr>
+<tr class="separator:a172d8b0f3cd9b70e843128c802918ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae29cb06d6279f2ef61f2299b837cdf8c" id="r_ae29cb06d6279f2ef61f2299b837cdf8c"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae29cb06d6279f2ef61f2299b837cdf8c">sel_pz</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:ae29cb06d6279f2ef61f2299b837cdf8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the z momentum.  <br /></td></tr>
+<tr class="separator:ae29cb06d6279f2ef61f2299b837cdf8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc5e63b133cdd9ebb090eb826ff17875" id="r_afc5e63b133cdd9ebb090eb826ff17875"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc5e63b133cdd9ebb090eb826ff17875">sel_eta</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:afc5e63b133cdd9ebb090eb826ff17875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the pseudorapidity.  <br /></td></tr>
+<tr class="separator:afc5e63b133cdd9ebb090eb826ff17875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c92824812d173a4f7df57f936a8d67" id="r_a65c92824812d173a4f7df57f936a8d67"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65c92824812d173a4f7df57f936a8d67">sel_rapidity</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a65c92824812d173a4f7df57f936a8d67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the rapidity.  <br /></td></tr>
+<tr class="separator:a65c92824812d173a4f7df57f936a8d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a667199a076db36e931ec6678748c8d35" id="r_a667199a076db36e931ec6678748c8d35"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a667199a076db36e931ec6678748c8d35">sel_theta</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a667199a076db36e931ec6678748c8d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the polar angle.  <br /></td></tr>
+<tr class="separator:a667199a076db36e931ec6678748c8d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c7f2c287cf3c9696a54401169b8422c" id="r_a2c7f2c287cf3c9696a54401169b8422c"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c7f2c287cf3c9696a54401169b8422c">sel_phi</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a2c7f2c287cf3c9696a54401169b8422c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the azimutal angle.  <br /></td></tr>
+<tr class="separator:a2c7f2c287cf3c9696a54401169b8422c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1557aec709da2a00ce6af628f930c88" id="r_af1557aec709da2a00ce6af628f930c88"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1557aec709da2a00ce6af628f930c88">sel_r</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:af1557aec709da2a00ce6af628f930c88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the distance to origin.  <br /></td></tr>
+<tr class="separator:af1557aec709da2a00ce6af628f930c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5156de080f61ff362c10428b40316ce" id="r_af5156de080f61ff362c10428b40316ce"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5156de080f61ff362c10428b40316ce">sel_x</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:af5156de080f61ff362c10428b40316ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the x distance.  <br /></td></tr>
+<tr class="separator:af5156de080f61ff362c10428b40316ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4c0e5f20c36e8ae099db5018b8f93c1" id="r_ac4c0e5f20c36e8ae099db5018b8f93c1"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4c0e5f20c36e8ae099db5018b8f93c1">sel_y</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:ac4c0e5f20c36e8ae099db5018b8f93c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the y distance.  <br /></td></tr>
+<tr class="separator:ac4c0e5f20c36e8ae099db5018b8f93c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a151226771612f2b3e0c0427181f716c5" id="r_a151226771612f2b3e0c0427181f716c5"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a151226771612f2b3e0c0427181f716c5">sel_z</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a151226771612f2b3e0c0427181f716c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the z distance.  <br /></td></tr>
+<tr class="separator:a151226771612f2b3e0c0427181f716c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38816a63f0ef1ace61946b8a0de47bbe" id="r_a38816a63f0ef1ace61946b8a0de47bbe"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38816a63f0ef1ace61946b8a0de47bbe">sel_m</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a38816a63f0ef1ace61946b8a0de47bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the mass.  <br /></td></tr>
+<tr class="separator:a38816a63f0ef1ace61946b8a0de47bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf149ecd8a95b915a39b296d18100efd" id="r_adf149ecd8a95b915a39b296d18100efd"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf149ecd8a95b915a39b296d18100efd">sel_q</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:adf149ecd8a95b915a39b296d18100efd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the charge.  <br /></td></tr>
+<tr class="separator:adf149ecd8a95b915a39b296d18100efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2d500bff2b31c32ea6fe27ec2226646" id="r_ac2d500bff2b31c32ea6fe27ec2226646"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2d500bff2b31c32ea6fe27ec2226646">sel_absq</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:ac2d500bff2b31c32ea6fe27ec2226646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the absolute charge.  <br /></td></tr>
+<tr class="separator:ac2d500bff2b31c32ea6fe27ec2226646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e0ee0c0eb60549b72ade2dd79d877ef" id="r_a7e0ee0c0eb60549b72ade2dd79d877ef"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e0ee0c0eb60549b72ade2dd79d877ef">sel_pdg</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, int value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a7e0ee0c0eb60549b72ade2dd79d877ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the pdg.  <br /></td></tr>
+<tr class="separator:a7e0ee0c0eb60549b72ade2dd79d877ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f93a3e287f6795cb0fbb2b9a0c8118" id="r_ab5f93a3e287f6795cb0fbb2b9a0c8118"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5f93a3e287f6795cb0fbb2b9a0c8118">sel_abspdg</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, int value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:ab5f93a3e287f6795cb0fbb2b9a0c8118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the absolute pdg.  <br /></td></tr>
+<tr class="separator:ab5f93a3e287f6795cb0fbb2b9a0c8118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Englobe analyzers that acts on the <a class="el" href="namespacek4_1_1ral_1_1ReconstructedParticle.html" title="Englobe analyzers that acts on the ReconstructedParticle class.">ReconstructedParticle</a> class. </p>
@@ -821,6 +887,78 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4e3a5e3ae5f3faa99bce01f84eeb99fb" name="a4e3a5e3ae5f3faa99bce01f84eeb99fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e3a5e3ae5f3faa99bce01f84eeb99fb">&#9670;&#160;</a></span>mask_abspdg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; bool &gt; k4::ral::ReconstructedParticle::mask_abspdg </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a boolean mask based on the absolute pdg for later filtering. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the pdg that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6aa46a12622d4cf1d54c80cd704ff86a" name="a6aa46a12622d4cf1d54c80cd704ff86a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa46a12622d4cf1d54c80cd704ff86a">&#9670;&#160;</a></span>mask_absq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; bool &gt; k4::ral::ReconstructedParticle::mask_absq </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a boolean mask based on the absolute charge for later filtering. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the charge that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ac8ae2a87d1f3ca00e837ab3e77183c93" name="ac8ae2a87d1f3ca00e837ab3e77183c93"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8ae2a87d1f3ca00e837ab3e77183c93">&#9670;&#160;</a></span>mask_e()</h2>
 
@@ -922,6 +1060,42 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
     <tr><td class="paramname">value</td><td>Value of the mass that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acda38fdbd0c5a38e356f3de0b46cf84a" name="acda38fdbd0c5a38e356f3de0b46cf84a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acda38fdbd0c5a38e356f3de0b46cf84a">&#9670;&#160;</a></span>mask_pdg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; bool &gt; k4::ral::ReconstructedParticle::mask_pdg </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a boolean mask based on the PDG for later filtering. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the pdg that is used in the comparison </td></tr>
     <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
   </table>
   </dd>
@@ -1386,6 +1560,690 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a boolean mask based on the z coordinate of position for later filtering. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the distance that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab5f93a3e287f6795cb0fbb2b9a0c8118" name="ab5f93a3e287f6795cb0fbb2b9a0c8118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f93a3e287f6795cb0fbb2b9a0c8118">&#9670;&#160;</a></span>sel_abspdg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_abspdg </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the absolute pdg. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the pdg that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac2d500bff2b31c32ea6fe27ec2226646" name="ac2d500bff2b31c32ea6fe27ec2226646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2d500bff2b31c32ea6fe27ec2226646">&#9670;&#160;</a></span>sel_absq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_absq </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the absolute charge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the charge that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0a20c3bdacb90105a1545286c40ee5af" name="a0a20c3bdacb90105a1545286c40ee5af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a20c3bdacb90105a1545286c40ee5af">&#9670;&#160;</a></span>sel_e()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_e </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the energy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the energy that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afc5e63b133cdd9ebb090eb826ff17875" name="afc5e63b133cdd9ebb090eb826ff17875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc5e63b133cdd9ebb090eb826ff17875">&#9670;&#160;</a></span>sel_eta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_eta </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the pseudorapidity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the pseudorapidity that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a38816a63f0ef1ace61946b8a0de47bbe" name="a38816a63f0ef1ace61946b8a0de47bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38816a63f0ef1ace61946b8a0de47bbe">&#9670;&#160;</a></span>sel_m()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_m </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the mass. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the mass that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7e0ee0c0eb60549b72ade2dd79d877ef" name="a7e0ee0c0eb60549b72ade2dd79d877ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e0ee0c0eb60549b72ade2dd79d877ef">&#9670;&#160;</a></span>sel_pdg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_pdg </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the pdg. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the pdg that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2c7f2c287cf3c9696a54401169b8422c" name="a2c7f2c287cf3c9696a54401169b8422c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c7f2c287cf3c9696a54401169b8422c">&#9670;&#160;</a></span>sel_phi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_phi </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the azimutal angle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the angle that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a19cbdb760a9d18ce3d6343ff4733f12f" name="a19cbdb760a9d18ce3d6343ff4733f12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19cbdb760a9d18ce3d6343ff4733f12f">&#9670;&#160;</a></span>sel_pmod()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_pmod </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the 3D momentum modulus. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the momentum that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a027e1e004c63efd98f96abffd09fe40f" name="a027e1e004c63efd98f96abffd09fe40f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a027e1e004c63efd98f96abffd09fe40f">&#9670;&#160;</a></span>sel_pt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_pt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the transverse momentum modulus. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the momentum that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afe813eefb25a9f2fd1b6b4bc5e5f10c4" name="afe813eefb25a9f2fd1b6b4bc5e5f10c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe813eefb25a9f2fd1b6b4bc5e5f10c4">&#9670;&#160;</a></span>sel_px()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_px </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the x momentum. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the momentum that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a172d8b0f3cd9b70e843128c802918ef8" name="a172d8b0f3cd9b70e843128c802918ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a172d8b0f3cd9b70e843128c802918ef8">&#9670;&#160;</a></span>sel_py()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_py </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the y momentum. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the momentum that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae29cb06d6279f2ef61f2299b837cdf8c" name="ae29cb06d6279f2ef61f2299b837cdf8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae29cb06d6279f2ef61f2299b837cdf8c">&#9670;&#160;</a></span>sel_pz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_pz </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the z momentum. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the momentum that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adf149ecd8a95b915a39b296d18100efd" name="adf149ecd8a95b915a39b296d18100efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf149ecd8a95b915a39b296d18100efd">&#9670;&#160;</a></span>sel_q()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_q </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the charge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the charge that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af1557aec709da2a00ce6af628f930c88" name="af1557aec709da2a00ce6af628f930c88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1557aec709da2a00ce6af628f930c88">&#9670;&#160;</a></span>sel_r()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_r </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the distance to origin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the distance that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a65c92824812d173a4f7df57f936a8d67" name="a65c92824812d173a4f7df57f936a8d67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c92824812d173a4f7df57f936a8d67">&#9670;&#160;</a></span>sel_rapidity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_rapidity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the rapidity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the rapidity that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a667199a076db36e931ec6678748c8d35" name="a667199a076db36e931ec6678748c8d35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a667199a076db36e931ec6678748c8d35">&#9670;&#160;</a></span>sel_theta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_theta </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the polar angle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the angle that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af5156de080f61ff362c10428b40316ce" name="af5156de080f61ff362c10428b40316ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5156de080f61ff362c10428b40316ce">&#9670;&#160;</a></span>sel_x()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_x </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the x distance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the distance that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac4c0e5f20c36e8ae099db5018b8f93c1" name="ac4c0e5f20c36e8ae099db5018b8f93c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4c0e5f20c36e8ae099db5018b8f93c1">&#9670;&#160;</a></span>sel_y()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_y </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the y distance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
+    <tr><td class="paramname">value</td><td>Value of the distance that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a151226771612f2b3e0c0427181f716c5" name="a151226771612f2b3e0c0427181f716c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a151226771612f2b3e0c0427181f716c5">&#9670;&#160;</a></span>sel_z()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_z </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a></td>          <td class="paramname"><span class="paramname"><em>op</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles based on the z distance. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>

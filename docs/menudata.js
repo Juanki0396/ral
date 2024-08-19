@@ -34,12 +34,14 @@ var menudata={children:[
 {text:"f",url:"namespacemembers.html#index_f"},
 {text:"g",url:"namespacemembers.html#index_g"},
 {text:"m",url:"namespacemembers.html#index_m"},
-{text:"o",url:"namespacemembers.html#index_o"}]},
+{text:"o",url:"namespacemembers.html#index_o"},
+{text:"s",url:"namespacemembers.html#index_s"}]},
 {text:"Functions",url:"namespacemembers_func.html",children:[
 {text:"f",url:"namespacemembers_func.html#index_f"},
 {text:"g",url:"namespacemembers_func.html#index_g"},
 {text:"m",url:"namespacemembers_func.html#index_m"},
-{text:"o",url:"namespacemembers_func.html#index_o"}]},
+{text:"o",url:"namespacemembers_func.html#index_o"},
+{text:"s",url:"namespacemembers_func.html#index_s"}]},
 {text:"Enumerations",url:"namespacemembers_enum.html"}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
