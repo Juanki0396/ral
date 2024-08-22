@@ -194,6 +194,15 @@ Functions</h2></td></tr>
 <tr class="memitem:af0600e76b43b08f059a9de00b57b471c" id="r_af0600e76b43b08f059a9de00b57b471c"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0600e76b43b08f059a9de00b57b471c">get_goodnessOfPID</a> (ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
 <tr class="memdesc:af0600e76b43b08f059a9de00b57b471c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get goodnessOfPID member from ReconstructedParticles.  <br /></td></tr>
 <tr class="separator:af0600e76b43b08f059a9de00b57b471c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad21df36292f8945274e429ea5dd0084a" id="r_ad21df36292f8945274e429ea5dd0084a"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21df36292f8945274e429ea5dd0084a">get_daugthers</a> (edm4hep::ReconstructedParticleData main_particle, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:ad21df36292f8945274e429ea5dd0084a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the daughter particles of one <a class="el" href="namespacek4_1_1ral_1_1ReconstructedParticle.html" title="Englobe analyzers that acts on the ReconstructedParticle class.">ReconstructedParticle</a>.  <br /></td></tr>
+<tr class="separator:ad21df36292f8945274e429ea5dd0084a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeef392c8663f48c04b6329cab682ebef" id="r_aeef392c8663f48c04b6329cab682ebef"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ClusterData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeef392c8663f48c04b6329cab682ebef">get_clusters</a> (edm4hep::ReconstructedParticleData main_particle, ROOT::VecOps::RVec&lt; edm4hep::ClusterData &gt; clusters)</td></tr>
+<tr class="memdesc:aeef392c8663f48c04b6329cab682ebef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the clusters related to one <a class="el" href="namespacek4_1_1ral_1_1ReconstructedParticle.html" title="Englobe analyzers that acts on the ReconstructedParticle class.">ReconstructedParticle</a>.  <br /></td></tr>
+<tr class="separator:aeef392c8663f48c04b6329cab682ebef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39dc4bb1988bf2fadcd9672b6fcb0eb3" id="r_a39dc4bb1988bf2fadcd9672b6fcb0eb3"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::TrackData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39dc4bb1988bf2fadcd9672b6fcb0eb3">get_tracks</a> (edm4hep::ReconstructedParticleData main_particle, ROOT::VecOps::RVec&lt; edm4hep::TrackData &gt; tracks)</td></tr>
+<tr class="memdesc:a39dc4bb1988bf2fadcd9672b6fcb0eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the tracks related to one <a class="el" href="namespacek4_1_1ral_1_1ReconstructedParticle.html" title="Englobe analyzers that acts on the ReconstructedParticle class.">ReconstructedParticle</a>.  <br /></td></tr>
+<tr class="separator:a39dc4bb1988bf2fadcd9672b6fcb0eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8ae2a87d1f3ca00e837ab3e77183c93" id="r_ac8ae2a87d1f3ca00e837ab3e77183c93"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8ae2a87d1f3ca00e837ab3e77183c93">mask_e</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
 <tr class="memdesc:ac8ae2a87d1f3ca00e837ab3e77183c93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a boolean mask based on the energy for later filtering.  <br /></td></tr>
 <tr class="separator:ac8ae2a87d1f3ca00e837ab3e77183c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,6 +260,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a4e3a5e3ae5f3faa99bce01f84eeb99fb" id="r_a4e3a5e3ae5f3faa99bce01f84eeb99fb"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e3a5e3ae5f3faa99bce01f84eeb99fb">mask_abspdg</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, int value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
 <tr class="memdesc:a4e3a5e3ae5f3faa99bce01f84eeb99fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a boolean mask based on the absolute pdg for later filtering.  <br /></td></tr>
 <tr class="separator:a4e3a5e3ae5f3faa99bce01f84eeb99fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88bbf92cbb3ab63a6f182d806734d276" id="r_a88bbf92cbb3ab63a6f182d806734d276"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88bbf92cbb3ab63a6f182d806734d276">sel_n_elements</a> (int n, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a88bbf92cbb3ab63a6f182d806734d276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles.  <br /></td></tr>
+<tr class="separator:a88bbf92cbb3ab63a6f182d806734d276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c056e5e16fa67b6d47c0005ee8c50e2" id="r_a4c056e5e16fa67b6d47c0005ee8c50e2"><td class="memItemLeft" align="right" valign="top">edm4hep::ReconstructedParticleData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c056e5e16fa67b6d47c0005ee8c50e2">sel_element</a> (int n, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
+<tr class="memdesc:a4c056e5e16fa67b6d47c0005ee8c50e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select one <a class="el" href="namespacek4_1_1ral_1_1ReconstructedParticle.html" title="Englobe analyzers that acts on the ReconstructedParticle class.">ReconstructedParticle</a>.  <br /></td></tr>
+<tr class="separator:a4c056e5e16fa67b6d47c0005ee8c50e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a20c3bdacb90105a1545286c40ee5af" id="r_a0a20c3bdacb90105a1545286c40ee5af"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a20c3bdacb90105a1545286c40ee5af">sel_e</a> (<a class="el" href="namespacek4_1_1ral_1_1LogicalOperators.html#a2b0439fe6dd51aea6c48003928a4f260">LogicalOperators::ComparisonOperator</a> op, float value, ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
 <tr class="memdesc:a0a20c3bdacb90105a1545286c40ee5af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select a subcollection of ReconstructedParticles based on the energy.  <br /></td></tr>
 <tr class="separator:a0a20c3bdacb90105a1545286c40ee5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -412,6 +427,66 @@ Functions</h2></td></tr>
 <p>Get absolute charge from ReconstructedParticles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aeef392c8663f48c04b6329cab682ebef" name="aeef392c8663f48c04b6329cab682ebef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeef392c8663f48c04b6329cab682ebef">&#9670;&#160;</a></span>get_clusters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ClusterData &gt; k4::ral::ReconstructedParticle::get_clusters </td>
+          <td>(</td>
+          <td class="paramtype">edm4hep::ReconstructedParticleData</td>          <td class="paramname"><span class="paramname"><em>main_particle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ClusterData &gt;</td>          <td class="paramname"><span class="paramname"><em>clusters</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get all the clusters related to one <a class="el" href="namespacek4_1_1ral_1_1ReconstructedParticle.html" title="Englobe analyzers that acts on the ReconstructedParticle class.">ReconstructedParticle</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">main_particle</td><td>Particle that is going to be look for clusters. </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad21df36292f8945274e429ea5dd0084a" name="ad21df36292f8945274e429ea5dd0084a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad21df36292f8945274e429ea5dd0084a">&#9670;&#160;</a></span>get_daugthers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::get_daugthers </td>
+          <td>(</td>
+          <td class="paramtype">edm4hep::ReconstructedParticleData</td>          <td class="paramname"><span class="paramname"><em>main_particle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get all the daughter particles of one <a class="el" href="namespacek4_1_1ral_1_1ReconstructedParticle.html" title="Englobe analyzers that acts on the ReconstructedParticle class.">ReconstructedParticle</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">main_particle</td><td>Particle that is going to be look for daughters. </td></tr>
     <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
   </table>
   </dd>
@@ -862,6 +937,36 @@ Functions</h2></td></tr>
 <p>Get the polar angle of ReconstructedParticles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a39dc4bb1988bf2fadcd9672b6fcb0eb3" name="a39dc4bb1988bf2fadcd9672b6fcb0eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39dc4bb1988bf2fadcd9672b6fcb0eb3">&#9670;&#160;</a></span>get_tracks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::TrackData &gt; k4::ral::ReconstructedParticle::get_tracks </td>
+          <td>(</td>
+          <td class="paramtype">edm4hep::ReconstructedParticleData</td>          <td class="paramname"><span class="paramname"><em>main_particle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::TrackData &gt;</td>          <td class="paramname"><span class="paramname"><em>tracks</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get all the tracks related to one <a class="el" href="namespacek4_1_1ral_1_1ReconstructedParticle.html" title="Englobe analyzers that acts on the ReconstructedParticle class.">ReconstructedParticle</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">main_particle</td><td>Particle that is going to be look for tracks. </td></tr>
     <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
   </table>
   </dd>
@@ -1736,6 +1841,36 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4c056e5e16fa67b6d47c0005ee8c50e2" name="a4c056e5e16fa67b6d47c0005ee8c50e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c056e5e16fa67b6d47c0005ee8c50e2">&#9670;&#160;</a></span>sel_element()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">edm4hep::ReconstructedParticleData k4::ral::ReconstructedParticle::sel_element </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select one <a class="el" href="namespacek4_1_1ral_1_1ReconstructedParticle.html" title="Englobe analyzers that acts on the ReconstructedParticle class.">ReconstructedParticle</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Index of the element selected </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="afc5e63b133cdd9ebb090eb826ff17875" name="afc5e63b133cdd9ebb090eb826ff17875"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc5e63b133cdd9ebb090eb826ff17875">&#9670;&#160;</a></span>sel_eta()</h2>
 
@@ -1801,6 +1936,36 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">op</td><td>Comparison operator to apply with the value </td></tr>
     <tr><td class="paramname">value</td><td>Value of the mass that is used in the comparison </td></tr>
+    <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a88bbf92cbb3ab63a6f182d806734d276" name="a88bbf92cbb3ab63a6f182d806734d276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88bbf92cbb3ab63a6f182d806734d276">&#9670;&#160;</a></span>sel_n_elements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; k4::ral::ReconstructedParticle::sel_n_elements </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>particles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select a subcollection of ReconstructedParticles. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Number of elements that would be selected. Positive number selects from the begining and negative number select from the end </td></tr>
     <tr><td class="paramname">particles</td><td>List of reconstructed particles in an event </td></tr>
   </table>
   </dd>
