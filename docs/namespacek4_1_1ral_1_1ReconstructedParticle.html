@@ -1175,6 +1175,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a6ae4fef8568a505eb5ed92d562a05e14" id="r_a6ae4fef8568a505eb5ed92d562a05e14"><td class="memItemLeft" align="right" valign="top">edm4hep::MCParticleCollection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ae4fef8568a505eb5ed92d562a05e14">sortGenStat</a> (edm4hep::MCParticleCollection &amp;collection, bool reverse=false)</td></tr>
 <tr class="memdesc:a6ae4fef8568a505eb5ed92d562a05e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a collection of MCParticle based on the value of generator status.  <br /></td></tr>
 <tr class="separator:a6ae4fef8568a505eb5ed92d562a05e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7ec304e952e3c1b196ff45d90e533aa" id="r_ab7ec304e952e3c1b196ff45d90e533aa"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::MCParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7ec304e952e3c1b196ff45d90e533aa">getParents</a> (edm4hep::MCParticleData item, ROOT::VecOps::RVec&lt; edm4hep::MCParticleData &gt; relatedCollection)</td></tr>
+<tr class="memdesc:ab7ec304e952e3c1b196ff45d90e533aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the collection of MCParticle related to a MCParticle.  <br /></td></tr>
+<tr class="separator:ab7ec304e952e3c1b196ff45d90e533aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc3a371a9255d44f86f2f89615e0187" id="r_a2dc3a371a9255d44f86f2f89615e0187"><td class="memItemLeft" align="right" valign="top">edm4hep::MCParticleCollection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dc3a371a9255d44f86f2f89615e0187">getParents</a> (const edm4hep::MCParticle &amp;item)</td></tr>
+<tr class="memdesc:a2dc3a371a9255d44f86f2f89615e0187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the collection of MCParticle related to a MCParticle.  <br /></td></tr>
+<tr class="separator:a2dc3a371a9255d44f86f2f89615e0187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78946ba9d38ac4dd8d643c473c6c886c" id="r_a78946ba9d38ac4dd8d643c473c6c886c"><td class="memItemLeft" align="right" valign="top">ROOT::VecOps::RVec&lt; edm4hep::MCParticleData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78946ba9d38ac4dd8d643c473c6c886c">getDaughters</a> (edm4hep::MCParticleData item, ROOT::VecOps::RVec&lt; edm4hep::MCParticleData &gt; relatedCollection)</td></tr>
+<tr class="memdesc:a78946ba9d38ac4dd8d643c473c6c886c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the collection of MCParticle related to a MCParticle.  <br /></td></tr>
+<tr class="separator:a78946ba9d38ac4dd8d643c473c6c886c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee73ecf5e11b6c9afd5f6a75dfd3e88a" id="r_aee73ecf5e11b6c9afd5f6a75dfd3e88a"><td class="memItemLeft" align="right" valign="top">edm4hep::MCParticleCollection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee73ecf5e11b6c9afd5f6a75dfd3e88a">getDaughters</a> (const edm4hep::MCParticle &amp;item)</td></tr>
+<tr class="memdesc:aee73ecf5e11b6c9afd5f6a75dfd3e88a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the collection of MCParticle related to a MCParticle.  <br /></td></tr>
+<tr class="separator:aee73ecf5e11b6c9afd5f6a75dfd3e88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacc1b1acac439d3468d0f900593f34d7" id="r_aacc1b1acac439d3468d0f900593f34d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacc1b1acac439d3468d0f900593f34d7">get_n</a> (ROOT::VecOps::RVec&lt; edm4hep::ReconstructedParticleData &gt; particles)</td></tr>
 <tr class="memdesc:aacc1b1acac439d3468d0f900593f34d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of elements in ReconstructedParticles.  <br /></td></tr>
 <tr class="separator:aacc1b1acac439d3468d0f900593f34d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2251,6 +2263,61 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aee73ecf5e11b6c9afd5f6a75dfd3e88a" name="aee73ecf5e11b6c9afd5f6a75dfd3e88a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee73ecf5e11b6c9afd5f6a75dfd3e88a">&#9670;&#160;</a></span>getDaughters() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">edm4hep::MCParticleCollection k4::ral::ReconstructedParticle::getDaughters </td>
+          <td>(</td>
+          <td class="paramtype">const edm4hep::MCParticle &amp;</td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the collection of MCParticle related to a MCParticle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>MCParticle to look in for related collection </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a78946ba9d38ac4dd8d643c473c6c886c" name="a78946ba9d38ac4dd8d643c473c6c886c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78946ba9d38ac4dd8d643c473c6c886c">&#9670;&#160;</a></span>getDaughters() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::MCParticleData &gt; k4::ral::ReconstructedParticle::getDaughters </td>
+          <td>(</td>
+          <td class="paramtype">edm4hep::MCParticleData</td>          <td class="paramname"><span class="paramname"><em>item</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::MCParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>relatedCollection</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the collection of MCParticle related to a MCParticle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>MCParticle from which to look for the related collection. </td></tr>
+    <tr><td class="paramname">relatedCollection</td><td>Complete collection of MCParticle to filter </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a6e3edc5614314a6f3c878b56a75ee7db" name="a6e3edc5614314a6f3c878b56a75ee7db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e3edc5614314a6f3c878b56a75ee7db">&#9670;&#160;</a></span>getE() <span class="overload">[1/2]</span></h2>
 
@@ -2595,6 +2662,61 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">collection</td><td>Collection of MCParticle to look in </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2dc3a371a9255d44f86f2f89615e0187" name="a2dc3a371a9255d44f86f2f89615e0187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dc3a371a9255d44f86f2f89615e0187">&#9670;&#160;</a></span>getParents() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">edm4hep::MCParticleCollection k4::ral::ReconstructedParticle::getParents </td>
+          <td>(</td>
+          <td class="paramtype">const edm4hep::MCParticle &amp;</td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the collection of MCParticle related to a MCParticle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>MCParticle to look in for related collection </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab7ec304e952e3c1b196ff45d90e533aa" name="ab7ec304e952e3c1b196ff45d90e533aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7ec304e952e3c1b196ff45d90e533aa">&#9670;&#160;</a></span>getParents() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROOT::VecOps::RVec&lt; edm4hep::MCParticleData &gt; k4::ral::ReconstructedParticle::getParents </td>
+          <td>(</td>
+          <td class="paramtype">edm4hep::MCParticleData</td>          <td class="paramname"><span class="paramname"><em>item</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ROOT::VecOps::RVec&lt; edm4hep::MCParticleData &gt;</td>          <td class="paramname"><span class="paramname"><em>relatedCollection</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the collection of MCParticle related to a MCParticle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>MCParticle from which to look for the related collection. </td></tr>
+    <tr><td class="paramname">relatedCollection</td><td>Complete collection of MCParticle to filter </td></tr>
   </table>
   </dd>
 </dl>
